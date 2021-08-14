@@ -22,10 +22,29 @@ body {
   justify-content: flex-end;
   margin: 10px;
   overflow: hidden;
-  margin-right: 30px;
+  margin-right: 3px;
   margin-top: 14px;
   font-family: arial,sans-serif;
   font-size: 13px;
+}
+
+nav >ul.header>li>a>button{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  background: #1a73e8;
+  border: 1px solid transparent;
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 8px;
+ 
+  padding: 9px 23px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .headerli a {
