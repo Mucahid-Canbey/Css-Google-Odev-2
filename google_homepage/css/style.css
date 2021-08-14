@@ -1,3 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+}
 .header {
   list-style-type: none;
   margin: 10px;
