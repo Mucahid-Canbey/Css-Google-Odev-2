@@ -15,6 +15,7 @@ body {
   min-height: 100vh;
 }
 
+/*   üst nav bar   */
 .header {
   display:flex;
   align-items: center;
@@ -28,6 +29,7 @@ body {
   font-size: 13px;
 }
 
+/*   Üst Bar Buton   */
 nav >ul.header>li>a>button{
   cursor: pointer;
   color: #fff;
@@ -61,6 +63,7 @@ nav >ul.header>li>a>button{
 }
 
 .container {
+  
   text-align: center;
   margin: 100px;
 }
@@ -93,6 +96,14 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   align-items: center;
   padding-right: 13px;
   margin-top: -5px;
+}
+
+.search-img>img {
+width: 25px;
+position: absolute;
+
+right: 34%;
+  
 }
 
 .search-img span {
