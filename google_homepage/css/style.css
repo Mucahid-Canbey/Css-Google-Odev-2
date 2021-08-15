@@ -98,16 +98,13 @@ border-radius: 30px;
 .search-img {
   display: flex;
   align-items: center;
-  padding-right: 13px;
+  padding-right: 497px;
   margin-top: -5px;
 }
 
-.search-img>img {
-width: 25px;
-position: absolute;
-
-right: 34%;
-  
+/*    mikrofon - img    */
+.search>img {
+  height:30px;
 }
 
 .search-img span {
@@ -119,6 +116,7 @@ right: 34%;
   fill: currentColor;
   line-height: 24px;
   position: relative;
+  
 }
 
 .input-enter {
@@ -133,7 +131,7 @@ right: 34%;
   flex: 100%;
   white-space: pre;
   font: 16px arial, sans-serif;
-  line-height: 34px;
+  line-height: 3px;
   height: 34px !important;
   display: block;
 }
@@ -150,7 +148,7 @@ right: 34%;
   outline: none;
   display: flex;
   flex: 100%;
-  margin-top: -68px;
+  margin-top: 68px;
   font: 16px arial, sans-serif;
   line-height: 34px;
   height: px !important;
@@ -166,13 +164,15 @@ right: 34%;
 }
 
 .googlesearch {
-  margin: 11px 4px;
+  margin: 30px 15px 0px 0px;
   padding: 0 16px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
   user-select: none;
+  borde
+  
 }
 
 .feelinglucky {
