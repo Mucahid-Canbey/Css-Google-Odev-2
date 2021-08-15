@@ -2,12 +2,12 @@
 /*   Genel Ayarlar   */
 *{
   list-style: none;
- 
   padding: 0;
   margin: 0;
   box-sizing:border-box;
   text-decoration: none;
   font-family: arial,sans-serif;
+
 }
 
 /*   Body Ayarları   */
@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  
 }
 
 /*   üst nav bar   */
@@ -23,12 +24,13 @@ body {
   align-items: center;
   list-style-type: none;
   justify-content: flex-end;
-  margin: 10px;
+ 
   overflow: hidden;
   margin-right: 3px;
   margin-top: 14px;
   font-family: arial,sans-serif;
-  font-size: 13px;
+  font-size: 12px;
+  
 }
 
 /*   Üst Bar Buton   */
@@ -139,51 +141,47 @@ border-radius: 30px;
 }
 
 .input {
-  border:0px solid #ddd;
+  
+  border:0px solid rgb(250, 248, 248);
   display: block;
   font-size: 16px;
-  margin: 0;
-  padding: 13;
+  outline:none ;
+  margin: 0px;
+  padding: 1px;
   width:480px ;
-  color: rgba(0, 0, 0, 0.87);
-  word-wrap: break-word;
-  outline: none;
+  color: rgba(63, 61, 61, 0.87);
+  margin-left: -109%;
+  margin-top: -5px;
   display: flex;
   flex: 100%;
-  margin-top: 68px;
+  border-radius: 30px;
+  
   font: 16px arial, sans-serif;
-  line-height: 34px;
-  height: px !important;
-  text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  text-align: start;
-  appearance: textfield;
-  cursor: text;
+  height: 35px;
+
 }
 
 .googlesearch {
-  margin: 30px 15px 0px 0px;
+  display: inline-block;
+  margin: 36px 7px 0px 0px;
   padding: 0 16px;
   line-height: 27px;
-  min-width: 54px;
   text-align: center;
-  cursor: pointer;
-  user-select: none;
-  borde
+  color:  #5f6368;
+  font-size: 14px;
   
 }
 
 .feelinglucky {
+  font-size: 14px;
   padding: 0 16px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
-  cursor: pointer;
-  user-select: none;
+  color:  #5f6368;
+  font-size: 14px;
+  
+  transition-duration: 0.4s;
 }
 
 .footer {
