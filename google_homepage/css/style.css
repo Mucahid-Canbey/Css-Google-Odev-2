@@ -1,15 +1,12 @@
-
 /*   Genel Ayarlar   */
-*{
-
-  list-style: none;/*   liste noktalarını ortadan kaldırmak için   */
+* {
+  list-style: none; /*   liste noktalarını ortadan kaldırmak için   */
 
   padding: 0;
   margin: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
   text-decoration: none;
-  font-family: arial,sans-serif;
-
+  font-family: arial, sans-serif;
 }
 
 /*   Body Ayarları   */
@@ -17,37 +14,35 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
 }
 
 /*   üst nav bar   */
 .header {
-  display:flex;
+  display: flex;
   align-items: center;
   list-style-type: none;
   justify-content: flex-end;
- 
+
   overflow: hidden;
   margin-right: 3px;
   margin-top: 14px;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   font-size: 12px;
-  
 }
 
 /*   Üst Bar Buton   */
-nav >ul.header>li>a>button{
+nav > ul.header > li > a > button {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
   background: #1a73e8;
   border: 1px solid transparent;
-  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.25px;
   line-height: 8px;
- 
+
   padding: 9px 23px;
   text-align: center;
   vertical-align: middle;
@@ -56,7 +51,6 @@ nav >ul.header>li>a>button{
 }
 
 .headerli a {
- 
   display: block;
   color: black;
   text-align: center;
@@ -69,10 +63,8 @@ nav >ul.header>li>a>button{
 }
 
 .container {
-  
   text-align: center;
   margin: 100px;
-  
 }
 
 .search-area {
@@ -89,8 +81,8 @@ nav >ul.header>li>a>button{
 }
 
 .search-area:hover {
-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
-border-radius: 30px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
 }
 
 .search {
@@ -109,8 +101,8 @@ border-radius: 30px;
 }
 
 /*    mikrofon - img    */
-.search>img {
-  height:30px;
+.search > img {
+  height: 30px;
 }
 
 .search-img span {
@@ -122,14 +114,12 @@ border-radius: 30px;
   fill: currentColor;
   line-height: 24px;
   position: relative;
-  
 }
 
 .input-enter {
   display: flex;
   flex: 1;
   flex-wrap: wrap;
-  
 }
 
 .input-area {
@@ -143,24 +133,22 @@ border-radius: 30px;
 }
 
 .input {
-  
-  border:0px solid rgb(250, 248, 248);
+  border: 0px solid rgb(250, 248, 248);
   display: block;
   font-size: 16px;
-  outline:none ;
+  outline: none;
   margin: 0px;
   padding: 1px;
-  width:480px ;
+  width: 480px;
   color: rgba(63, 61, 61, 0.87);
   margin-left: -109%;
   margin-top: -5px;
   display: flex;
   flex: 100%;
   border-radius: 30px;
-  
+
   font: 16px arial, sans-serif;
   height: 35px;
-
 }
 
 .googlesearch {
@@ -169,9 +157,8 @@ border-radius: 30px;
   padding: 0 16px;
   line-height: 27px;
   text-align: center;
-  color:  #5f6368;
+  color: #5f6368;
   font-size: 14px;
-  
 }
 
 .feelinglucky {
@@ -180,7 +167,7 @@ border-radius: 30px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
-  color:  #5f6368;
+  color: #5f6368;
   font-size: 14px;
   transition-duration: 0.4s;
 }
