@@ -1,7 +1,9 @@
 
 /*   Genel Ayarlar   */
 *{
-  list-style: none;
+
+  list-style: none;/*   liste noktalarını ortadan kaldırmak için   */
+
   padding: 0;
   margin: 0;
   box-sizing:border-box;
