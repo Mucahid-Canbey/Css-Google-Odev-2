@@ -1,5 +1,8 @@
-# kodluyoruz-css-odev-2
-Google Css Ödevi-2
+## Google Wep Tasarım
+
+## ![Image](https://r.resimlink.com/QvqbJzUg.png)
+
+Patika.dev'in css dersinde, yeni öğrendiğim bilgiler ile google'nin tasarımını yaptım
 
 ---
 
@@ -12,7 +15,7 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluştur
 Öncelikle projeyi clonelayın.
 
 ```
-https://github.com/Mucahid-Canbey/kodluyoruz-css-odev-2.git
+https://github.com/Mucahid-Canbey/Css-Google-Odev-2.git
 ```
 
 ## Usage
